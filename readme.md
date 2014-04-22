@@ -69,6 +69,10 @@ Run `grunt nodemon` or `node server.js` to start it, then load http://localhost:
 To use Apache (in the event you're building a PHP site, for example),
 create a virtualhost and point the docroot to the public/ subfolder of this project.
 
+This should allow you to continue to manage your raw, unminified front end files in the dev/ folder,
+while building the front end php script files in the public/ folder like a normal
+docroot.
+
 ### The dev folder
 
 The dev folder contains all of the
