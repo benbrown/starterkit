@@ -1,5 +1,6 @@
 node_modules
 .sass-cache
 .DS_Store
+public/js/libs/*
 
 
