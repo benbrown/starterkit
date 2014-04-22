@@ -2,6 +2,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var hbs = require('express-hbs');
 
 var routes = require('./server.routes');
 
@@ -9,6 +10,9 @@ var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
+app.engine('hbs', hbs.express3({
+  partialsDir: __dirname + '/views/partials'
+}));
 app.set('view engine', 'hbs');
 
 app.use(bodyParser.json());
