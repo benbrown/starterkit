@@ -58,6 +58,17 @@ and update the package.json file.
 
 # What's in this starter kit?
 
+### A Test Environment Server
+
+There is a VERY simple node app that will serve files from the public/ folder.
+
+Run `grunt nodemon` or `node server.js` to start it, then load http://localhost:3000/
+
+#### Using Apache to serve your stuff
+
+To use Apache (in the event you're building a PHP site, for example),
+create a virtualhost and point the docroot to the public/ subfolder of this project.
+
 ### The dev folder
 
 The dev folder contains all of the
