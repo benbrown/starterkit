@@ -1,0 +1,29 @@
+<?php
+
+  function drupal_module_menu() {
+
+    $items['my/custom/url'] = array(
+
+        'access callback'=>true,
+        'page callback'=> 'drupal_module_page'
+
+    );
+
+
+    $items['my/custom/url/%'] = array(
+
+      'access callback'=>true,
+      'page callback'=> 'drupal_module_page'
+			'page arguments'=>array(3)
+    );
+
+
+
+  }
+
+
+function drupal_module_page($param) {
+
+  return "Hello World";
+
+}

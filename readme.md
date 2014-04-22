@@ -39,6 +39,15 @@ and update the bower.json file.
 This will cause the module to be installed in node_modules/
 and update the package.json file.
 
+## Customizing Gruntfile.js
+
+You'll want to customize some of the specifics of Gruntfile.js, such as:
+
+* Specific files to watch or copy
+* Specific libraries to include in the minified libs.js
+* Any additional steps required to build
+* Running tests
+
 ## What's in this starter kit?
 
 ### The dev folder

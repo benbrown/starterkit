@@ -1,0 +1,13 @@
+;----------// Theme Information
+
+  name        = XOXCO Custom Theme
+  description = A new Drupal theme by XOXCO
+  core        = 7.x
+  engine      = phptemplate
+  screenshot  = screenshot.png
+
+
+stylesheets[all][] = css/style.css
+
+scripts[] = js/libs.js
+scripts[] = js/app.js

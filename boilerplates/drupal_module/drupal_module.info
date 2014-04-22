@@ -1,0 +1,4 @@
+name = XOXCO Module
+description = A useful description of what this XOXCO Module does
+core = 7.x
+project="XOXCO Project"
