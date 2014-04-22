@@ -58,7 +58,7 @@ and update the package.json file.
 
 # What's in this starter kit?
 
-### A Test Environment Server
+## A Test Environment Server
 
 There is a VERY simple node app that will serve files from the public/ folder.
 
@@ -73,7 +73,7 @@ This should allow you to continue to manage your raw, unminified front end files
 while building the front end php script files in the public/ folder like a normal
 docroot.
 
-### The dev folder
+## A dev folder
 
 The dev folder contains all of the
 component files that comprise things like
@@ -90,7 +90,7 @@ and then copied into public/css/style.css
 Scripts used by the build process should go in dev/scripts/.
 By default, grunt will execute dev/scripts/build.sh
 
-### The public folder
+## A public folder
 
 The public folder holds the public facing elements of a site.
 
@@ -103,12 +103,12 @@ Javascript libraries that are installed by Bower are placed in the public/js/lib
 These files *can* be concatinated and minfied by Grunt, but a specific list of files must
 be added to the Gruntfile.js config
 
-### The views folder
+## A views folder
 
 This folder contains files used by the Node.js server. Only relevant if you are
 going to use a Node.js app for more than creating a local test environment.
 
-### The boilerplates folder
+## A boilerplates folder
 
 This folder contains templates for various project types, such as Drupal modules
 and Node.JS apps.
