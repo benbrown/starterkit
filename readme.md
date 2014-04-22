@@ -1,7 +1,9 @@
 # XOXCO Development Starter Kit
 
 This project contains many helpful tools useful for building a variety
-of different type of sites.
+of different type of sites. It has been compiled with re-use in mind,
+and is thus stored in a generic state, ready to be customized for each
+project.
 
 ## Getting Started
 
@@ -14,6 +16,20 @@ This will install all the dependencies,
 install some front end libraries,
 and run all of the normal build processes
 to freshen up all the files.
+
+# Customizing the Starter Kit
+
+This project is intended only to be a good, generic starting point. Each type
+of project will look slightly different, and you should feel free to move files
+around, delete unnecessary components, and generally personalize things as necessary.
+
+You'll want to customize some of the specifics of Gruntfile.js, such as:
+
+* Specific files to watch or copy
+* Specific libraries to include in the minified libs.js
+* Any additional steps required to build
+* Running tests
+
 
 ## Useful Commands
 
@@ -39,14 +55,6 @@ and update the bower.json file.
 This will cause the module to be installed in node_modules/
 and update the package.json file.
 
-## Customizing Gruntfile.js
-
-You'll want to customize some of the specifics of Gruntfile.js, such as:
-
-* Specific files to watch or copy
-* Specific libraries to include in the minified libs.js
-* Any additional steps required to build
-* Running tests
 
 ## What's in this starter kit?
 
