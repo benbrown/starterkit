@@ -17,7 +17,7 @@ install some front end libraries,
 and run all of the normal build processes
 to freshen up all the files.
 
-# Customizing the Starter Kit
+## Customizing the Starter Kit
 
 This project is intended only to be a good, generic starting point. Each type
 of project will look slightly different, and you should feel free to move files
@@ -33,7 +33,7 @@ You'll want to customize some of the specifics of Gruntfile.js, such as:
 
 ## Useful Commands
 
-`grunt` - run all tasks for development environment
+`grunt` - run all tasks for development environment.
 
 `grunt prod` - run all tasks for a production environment
 
@@ -56,7 +56,7 @@ This will cause the module to be installed in node_modules/
 and update the package.json file.
 
 
-## What's in this starter kit?
+# What's in this starter kit?
 
 ### The dev folder
 
@@ -90,4 +90,12 @@ be added to the Gruntfile.js config
 
 ### The views folder
 
-This folder contains files used by the Node.js server.
+This folder contains files used by the Node.js server. Only relevant if you are
+going to use a Node.js app for more than creating a local test environment.
+
+### The boilerplates folder
+
+This folder contains templates for various project types, such as Drupal modules
+and Node.JS apps.
+
+These can be copied and customized to get started.
