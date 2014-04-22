@@ -66,13 +66,13 @@ module.exports = function(grunt) {
 				//     spawn:false,
 			  //   },
 		    // },
-        // partials: {
-        //   files: ['dev/partials/*','dev/partials/out/*','copy'],
-        //   tasks: ['copy'],
-        //   options: {
-        //     spawn:false,
-        //   },
-        // },
+        partials: {
+          files: ['dev/partials/*'],
+          tasks: ['copy'],
+          options: {
+            spawn:false,
+          },
+        },
 		    scripts: {
 		        files: ['dev/js/*.js'],
 		        tasks: ['concat','copy'],
